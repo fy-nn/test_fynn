@@ -24,3 +24,7 @@ print('test')
 # COMMAND ----------
 
 print('test2')
+
+# COMMAND ----------
+
+print('test3')
