@@ -15,10 +15,6 @@
 
 # COMMAND ----------
 
-#BLABLA
-
-# COMMAND ----------
-
 print('test')
 
 # COMMAND ----------
