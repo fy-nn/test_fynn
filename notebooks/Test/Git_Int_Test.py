@@ -16,3 +16,11 @@
 # COMMAND ----------
 
 #BLABLA
+
+# COMMAND ----------
+
+print('test')
+
+# COMMAND ----------
+
+print('test2')
