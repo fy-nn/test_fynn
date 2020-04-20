@@ -21,7 +21,7 @@ After the exploratory part (data exploration & freestyle data science) in Jupyte
 
 - [ ] Path: contains the path to the file, either give a direct path or use `${inputFilePath}` to be able to provide the path and file when executing the pipeline
 
-#### To String Converter{#tostringconverter}
+#### To String Converter {#tostringconverter}
 
 * Preconfigured and no actions needed
 
@@ -29,7 +29,7 @@ After the exploratory part (data exploration & freestyle data science) in Jupyte
 
 Select the *python3 operator* from the operators menu and drag and drop it to the canvas. The operator comes without **input** or **output ports**, thus they have to be added to the python operator.
 
-##### Port Settings {#portsettings}
+##### Port Settings
 
 The pipeline uses **one** input file for the data input that is leveraged in our python operator to train the model. The python operator generates **two** outputs (metrics and model) for further use in the pipeline. 
 
@@ -107,4 +107,5 @@ The *python3 operator* receives the data from the *read file operator* and then 
 
 ##### Operators Complete {#operatorscompleted}
 
-We need to check if all actions were carried out successfully and terminate the graph afterwards. Select the *python3 operator* from the operators menu and drag and drop it to the canvas. We need two input (metrics & ML model) and one output (completed message) port. The ports can be added in the same way again [Port Settings](#portsettings).
+We need to check if all actions were carried out successfully and terminate the graph afterwards. Select the *python3 operator* from the operators menu and drag and drop it to the canvas. We need two input (metrics & ML model) and one output (completed message) port. The ports can be added in the same way again [Port Settings](#port-settings).
+
